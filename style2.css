@@ -1,0 +1,86 @@
+.card-image {
+    height: 200px;
+}
+
+#button {
+    display: block;
+    margin: auto;
+}
+
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+.blob{
+    background-image: url(Images/irene.jpeg);
+    width: 380px;
+    height: 380px;
+    background-size: cover;
+    -webkit-background-position: center;
+    background-position: center center;
+    margin: 20px;
+    box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+    0%, 100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
+
+.nav-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 20;
+    font-size: 17px;
+}
+
+.heading-text {
+    font-weight: 510;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-feature-settings: "tnum";
+    letter-spacing: 3px;
+    
+
+}
+
+.article-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    font-size: 80px;
+
+}
+
+
+
+.brand-logo {
+    font-weight: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    
+}
+
+.nav1-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 20;
+    font-size: 40px;
+    letter-spacing: 2px
+}
